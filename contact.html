@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Байланыс | Butterfly Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Butterfly 🦋</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Басты бет</a></li>
+            <li><a href="about.html" class="nav-link">Біз туралы</a></li>
+            <li><a href="contact.html" class="nav-link">Байланыс</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main class="container"> 
+        <section class="contact-info">
+            <h1>Бізбен байланысыңыз</h1>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <h1>📞</h1>
+                    <h3>Телефон</h3>
+                    <p>+7 (777) 123-45-67</p>
+                    <p>Жұмыс уақыты: 9:00 - 20:00</p>
+                </div>
+                <div class="contact-card">
+                    <h1>💌</h1>
+                    <h3>Email</h3>
+                    <p>info@butterfly.kz</p>
+                    <p>booking@butterfly.kz</p>
+                </div>
+                <div class="contact-card">
+                  <h1>📍</h1>
+                    <h3>Мекен-жай</h3>
+                    <p>Астана,Қабанбай батыр көшесі 64</p>
+                    <p>Mega, 2-қабат</p>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="contact-grid-section">
+            <div class="contact-grid">
+                <div class="form-container">
+                    <h2>Саяхатты брондау</h2>
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <label>Аты-жөніңіз:</label>
+                            <input type="text" placeholder="Толық атыңызды жазыңыз..." required>
+                        </div>
+                        <div class="form-group">
+                            <label>Телефон:</label>
+                            <input type="tel" placeholder="+7 (777) 123-45-67" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" placeholder="example@mail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Бағытты таңдаңыз:</label>
+                            <select required>
+                                <option value="">Таңдаңыз...</option>
+                                <option>Рим</option>
+                                <option>Венеция</option>
+                                <option>Милан</option>
+                                <option>Амальфи</option>
+                                <option>Флоренция</option>
+                                <option>Сицилия</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Адам саны:</label>
+                            <input type="number" min="1" max="10" value="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Күн саны:</label>
+                            <select>
+                                <option>3 күн</option>
+                                <option>5 күн</option>
+                                <option>7 күн</option>
+                                <option>10 күн</option>
+                                <option>14 күн</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Жіберу</button>
+                    </form>
+                </div>
+
+                <div class="feedback-container">
+                    <h2>Пікір қалдыру</h2>
+                    <form class="feedback-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Атыңыз...">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Саяхат туралы әсеріңізбен бөлісіңіз..." rows="6" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Бағалау:</label>
+                            <div class="rating-stars">
+                                <i class="fas fa-star" data-rating="1"></i>
+                                <i class="fas fa-star" data-rating="2"></i>
+                                <i class="fas fa-star" data-rating="3"></i>
+                                <i class="fas fa-star" data-rating="4"></i>
+                                <i class="fas fa-star" data-rating="5"></i>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-outline">Пікірді жіберу</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="map-section">
+            <h2 class="section-title">Біздің орналасқан жеріміз</h2>
+            <div class="map-placeholder">
+                <div class="map-overlay">
+                    <h3>Астана,Қабанбай батыр көшесі 64 </h3>
+                    <p>ТРЦ "Mega SilkWay"</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Butterfly Travel. Барлық құқықтар қорғалған.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
