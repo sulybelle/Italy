@@ -21,7 +21,7 @@
 
 ## 🌐 Тікелей сілтеме (Live Demo)
 Сайтты мына сілтеме арқылы көруге болады: 
-[italy-travel-project.netlify.app](courageous-bubblegum-820c3d.netlify.app)
+[https://courageous-bubblegum-820c3d.netlify.app]
 
 ---
 Жоба авторы: **Жұматай Махфуза**
