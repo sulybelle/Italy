@@ -21,7 +21,7 @@
 
 ## 🌐 Тікелей сілтеме (Live Demo)
 Сайтты мына сілтеме арқылы көруге болады: 
-[italy-travel-project.netlify.app](https://italy-travel-project.netlify.app) 
+[italy-travel-project.netlify.app](courageous-bubblegum-820c3d.netlify.app)
 *(Сілтемені Netlify-дан алған өз сілтемеңізбен ауыстырыңыз)*
 
 ---
